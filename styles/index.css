@@ -74,6 +74,40 @@ font-size: 16px;
 line-height: 175%;
 color: #697687;
 }
+.three_steps{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.three_steps.one{
+    font-family: airbnb-c;
+font-weight: 300;
+font-size: 16px;
+line-height: 112%;
+text-align: center;
+color: #00b3a0;
+padding-top: 0px;
+}
+.three_steps.two{
+    font-family: eksell-c;
+    font-weight: 500;
+font-size: 42px;
+line-height: 124%;
+text-transform: capitalize;
+text-align: center;
+color: #002248;
+padding-top: 15px;
+}
+.three_steps.three{
+    max-width: 568px;
+    font-family:sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 175%;
+text-align: center;
+color: #697687;
+padding-top: 15px;
+}
 
 
 
