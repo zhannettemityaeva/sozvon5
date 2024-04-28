@@ -11,6 +11,8 @@ body{
     font-family: airbnb-c;
     font-size: 32px;
     margin:0 auto;
+    backdrop-filter: blur(60px);
+background: #f8f8f8;
 }
 @font-face{
     font-family: airbnb-c;
@@ -54,6 +56,7 @@ header{
 .bookingImg{
     width: 569px;
     height: 597px;
+    margin: 0 30px 0 0;
 }
 .bookingText{
     font-family: eksell-c;
@@ -64,5 +67,13 @@ header{
     color: #002248;
     max-width: 530px;
 }
+.mainText{
+    font-family: sans-serif;
+font-weight: 200;
+font-size: 16px;
+line-height: 175%;
+color: #697687;
+}
+
 
 
