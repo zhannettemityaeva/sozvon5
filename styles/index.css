@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --maincolor:#3685fb;
+}
+body{
+    max-width: 1440px;
+    font-family: airbnb-c;
+    font-size: 32px;
+    margin:0 auto;
+}
+@font-face{
+    font-family: airbnb-c;
+    src:url(../fonts/Airbnb\ Cereal\ App\ Black.woff2)
+}
+@font-face{
+    font-family: eksell-c;
+    src: url(../fonts/ekselldisplaytrial-large.otf);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 109px;
+}
+.nav_link{
+    font-size: 16px;
+    line-height: 112%;
+    color: #002248;
+    text-decoration: none;
+    padding: 0 16px;
+}
+.nav_link:hover{
+    color:var(--maincolor);
+}
+.button{
+    background-color: var(--maincolor);
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    font-weight: 500;
+}
+.booking{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 109px;
+}
+.bookingImg{
+    width: 569px;
+    height: 597px;
+}
+.bookingText{
+    font-family: eksell-c;
+    font-weight: 550;
+    font-size: 60px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #002248;
+    max-width: 530px;
+}
+
+
